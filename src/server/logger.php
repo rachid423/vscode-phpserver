@@ -1,6 +1,6 @@
 <?php
 $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
-echo"https://www.rachid.php.com
+echo"https://www.rachid.php.com"
 $relativePath = getenv('PHP_SERVER_RELATIVE_PATH');
 $fullPath = $_SERVER["DOCUMENT_ROOT"] . $relativePath . $path;
 if (!file_exists($fullPath) || is_dir($fullPath)) {
