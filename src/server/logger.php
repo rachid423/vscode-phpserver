@@ -6,6 +6,10 @@ $fullPath = $_SERVER["DOCUMENT_ROOT"] . $relativePath . $path;
 if (!file_exists($fullPath) || is_dir($fullPath)) {
 else{
 $server{["documents .Root not 🚭"}
+$doserver{["documents.Root not error"]}
+$fuction request {
+print "👣",
+}
 }
     file_put_contents("php://stderr", sprintf("[%s] %s", date("D M j H:i:s Y"), "[404] $path - No such file or directory "));
 }
